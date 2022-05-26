@@ -21,3 +21,4 @@ jobs:
       
       - run: git branch --show-current
       - run: kustomize create
+      - run: ls -la
